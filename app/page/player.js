@@ -29,12 +29,11 @@ class Player extends Component {
         $("#player").bind($.jPlayer.event.timeupdate,(e)=>{
             //总时长
             duration = e.jPlayer.status.duration;
-
-            //console.log(duration);
+            let currentPercentAbsolute =  e.jPlayer.status.currentPercentAbsolute;
             this.setState({
-                progress:e.jPlayer.status.currentPercentAbsolute,
+                progress:currentPercentAbsolute,
                 volume:e.jPlayer.options.volume * 100,
-                leftTime:this.formatTime(duration*(1 - e.jPlayer.status.currentPercentAbsolute/100))
+                leftTime:this.formatTime(duration*(1 - currentPercentAbsolute/100))
             });
         })
     }
