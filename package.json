@@ -1,0 +1,40 @@
+{
+  "name": "react-music-player",
+  "version": "1.0.0",
+  "description": "misic player build by react",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "pubsub-js": "^1.5.4",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "react-hot-loader": "^3.0.0-beta.2",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-react-transform": "^2.0.0",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.28.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.16.1",
+    "json-loader": "^0.5.4",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^1.0.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "keywords": [
+    "music",
+    "player"
+  ],
+  "author": "yuxuemei",
+  "license": "MIT"
+}
