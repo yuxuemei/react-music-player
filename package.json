@@ -4,7 +4,9 @@
   "description": "misic player build by react",
   "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"node server",
+    "build": "webpack --config ./webpack.production.config.js --progress --profile --colors"
   },
   "dependencies": {
     "pubsub-js": "^1.5.4",
